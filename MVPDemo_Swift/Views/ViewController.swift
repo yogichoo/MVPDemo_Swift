@@ -22,23 +22,23 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     //DataPrensenter代理方法
-    func requestData(dict: NSDictionary) {
-        self.dataArr = dict["data"] as! NSArray
+    func requestData(_ dict: NSDictionary) {
+        self.dataArr = (dict["data"] as! NSArray) as! [Any]
         //刷新tableview
         self.tableView.reloadData()
     }
     
     //UITableView代理方法
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.dataArr.count
     }
     
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
         cell.textLabel?.text = self.dataArr[indexPath.row]["photo_abstract"] as? String
         return cell
     }

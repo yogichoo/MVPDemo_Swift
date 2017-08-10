@@ -223,13 +223,16 @@
 				TargetAttributes = {
 					3E3B33C31CE02C4E001CF1C5 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					3E3B33D71CE02C4F001CF1C5 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 3E3B33C31CE02C4E001CF1C5;
 					};
 					3E3B33E21CE02C4F001CF1C5 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 3E3B33C31CE02C4E001CF1C5;
 					};
 				};
@@ -435,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -446,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -457,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVPDemo_Swift.app/MVPDemo_Swift";
 			};
 			name = Debug;
@@ -469,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVPDemo_Swift.app/MVPDemo_Swift";
 			};
 			name = Release;
@@ -480,6 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MVPDemo_Swift;
 				USES_XCTRUNNER = YES;
 			};
@@ -492,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyjxs.MVPDemo-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MVPDemo_Swift;
 				USES_XCTRUNNER = YES;
 			};
@@ -516,6 +525,7 @@
 				3E3B33EE1CE02C4F001CF1C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3B33EF1CE02C4F001CF1C5 /* Build configuration list for PBXNativeTarget "MVPDemo_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				3E3B33F11CE02C4F001CF1C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3B33F21CE02C4F001CF1C5 /* Build configuration list for PBXNativeTarget "MVPDemo_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +543,7 @@
 				3E3B33F41CE02C4F001CF1C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

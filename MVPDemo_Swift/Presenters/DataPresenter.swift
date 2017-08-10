@@ -10,7 +10,7 @@ import UIKit
 
 protocol DataProtocol: NSObjectProtocol {
     
-    func requestData(dict: NSDictionary)
+    func requestData(_ dict: NSDictionary)
     
 }
 
